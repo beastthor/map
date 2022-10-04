@@ -19,6 +19,8 @@ func main() {
 	//Asinging a value to map after creating it
 	colors[10] = "#ffffff"
 
+	delete(colors, 10)
+
 	fmt.Println(colors)
 
 }
